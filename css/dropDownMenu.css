@@ -262,7 +262,9 @@ li {
     color: #cb2d41;
 }
 .slider {
-    background: url("/img/background_image_robot.jpg") no-repeat;
+    background: url("/img/background_robot.jpg") no-repeat;
+    background-size: cover;
+    
 }
 .slider__wrapper {
     width: 600px;
