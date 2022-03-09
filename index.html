@@ -4,8 +4,10 @@
 <head>
     <meta charset="utf-8">
     <title>Комплектующие</title>
-    <link rel="stylesheet" type="text/css" href="css/product_card.css">
+    <link rel="stylesheet" type="text/css" href="css/collection_cards.css">
     <link rel="stylesheet" type="text/css" href="css/dropDownMenu.css">
+    <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+    <script type="text/javascript" src="js/collections_cards.js"></script>
 </head>
 
 <body>
@@ -35,8 +37,7 @@
                     <ul class="catalog__list">
                         <li class="catalog__item">
                             <a href="#" class="catalog__link">
-                                <img src="https://imdiz.ru/files/store/img/icons_catalog/desktops.png" alt="Desktops"
-                                    class="catalog__link-img"> Радиоэлементы
+                                <img src="https://imdiz.ru/files/store/img/icons_catalog/desktops.png" alt="Desktops" class="catalog__link-img"> Радиоэлементы
                             </a>
                             <div class="catalog__subcatalog">
                                 <ul class="collections_subcatalog">
@@ -68,8 +69,7 @@
                                                         <ul>
                                                             <li><a href="#" class="catalog__subcatalog-link">Логические
                                                                     элементы</a></li>
-                                                            <li><a href="#"
-                                                                    class="catalog__subcatalog-link">Контроллеры</a>
+                                                            <li><a href="#" class="catalog__subcatalog-link">Контроллеры</a>
                                                             </li>
                                                             <li><a href="#" class="catalog__subcatalog-link">Драйверы и
                                                                     усилители</a></li>
@@ -107,8 +107,7 @@
                                                         <ul>
                                                             <li><a href="#" class="catalog__subcatalog-link">Логические
                                                                     элементы</a></li>
-                                                            <li><a href="#"
-                                                                    class="catalog__subcatalog-link">Контроллеры</a>
+                                                            <li><a href="#" class="catalog__subcatalog-link">Контроллеры</a>
                                                             </li>
                                                             <li><a href="#" class="catalog__subcatalog-link">Драйверы и
                                                                     усилители</a></li>
@@ -142,9 +141,7 @@
                             </div>
                         </li>
                         <li class="catalog__item">
-                            <a href="#" class="catalog__link"><img
-                                    src="https://imdiz.ru/files/store/img/icons_catalog/laptops.png"
-                                    alt="Laptops & Notebooks" class="catalog__link-img">Питание</a>
+                            <a href="#" class="catalog__link"><img src="https://imdiz.ru/files/store/img/icons_catalog/laptops.png" alt="Laptops & Notebooks" class="catalog__link-img">Питание</a>
                             <div class="catalog__subcatalog">
                                 <ul class="catalog_collections">
                                     <li class="collections_subcatalog_item">
@@ -157,8 +154,7 @@
                             </div>
                         </li>
                         <li class="catalog__item">
-                            <a href="#" class="catalog__link"><img src="img/components.png" alt="Components"
-                                    class="catalog__link-img">Модули</a>
+                            <a href="#" class="catalog__link"><img src="img/components.png" alt="Components" class="catalog__link-img">Модули</a>
                             <div class="catalog__subcatalog">
                                 <ul class="catalog_collections">
                                     <li class="collections_subcatalog_item">
@@ -198,14 +194,10 @@
                             </div>
                         </li>
                         <li class="catalog__item">
-                            <a href="#" class="catalog__link"><img
-                                    src="https://imdiz.ru/files/store/img/icons_catalog/tablets.png" alt="Tablets"
-                                    class="catalog__link-img">Провода</a>
+                            <a href="#" class="catalog__link"><img src="https://imdiz.ru/files/store/img/icons_catalog/tablets.png" alt="Tablets" class="catalog__link-img">Провода</a>
                         </li>
                         <li class="catalog__item">
-                            <a href="#" class="catalog__link"><img
-                                    src="https://imdiz.ru/files/store/img/icons_catalog/software.png" alt="Software"
-                                    class="catalog__link-img">Прочее</a>
+                            <a href="#" class="catalog__link"><img src="https://imdiz.ru/files/store/img/icons_catalog/software.png" alt="Software" class="catalog__link-img">Прочее</a>
                         </li>
                     </ul>
                 </div>
@@ -239,13 +231,191 @@
     <!-- END -->
 
     <main>
-        <section class="product_cards">
-            
-        </section>
-        
+        <div class="wrapper">
+            <div class="flex">
+
+                <div class="cart">
+                    <div class="img">
+                        <img src="" alt="">
+                    </div>
+                    <div class="description"></div>
+                    <div class="price"></div>
+                    <div class="button">
+                        <button type="button"> <a href="product.html">Подробнее</a></button>
+                    </div>
+                </div>
+
+                <div class="cart">
+                    <div class="img">
+                        <img src="" alt="">
+                    </div>
+                    <div class="description"></div>
+                    <div class="price"></div>
+                    <div class="button">
+                        <button type="button"> <a href="product.html">Подробнее</a></button>
+                    </div>
+                </div>
+
+                <div class="cart">
+                    <div class="img">
+                        <img src="" alt="">
+                    </div>
+                    <div class="description"></div>
+                    <div class="price"></div>
+                    <div class="button">
+                        <button type="button"> <a href="product.html">Подробнее</a></button>
+                    </div>
+                </div>
+
+                <div class="cart">
+                    <div class="img">
+                        <img src="" alt="">
+                    </div>
+                    <div class="description"></div>
+                    <div class="price"></div>
+                    <div class="button">
+                        <button type="button"> <a href="product.html">Подробнее</a></button>
+                    </div>
+                </div>
+
+                <div class="cart">
+                    <div class="img">
+                        <img src="" alt="">
+                    </div>
+                    <div class="description"></div>
+                    <div class="price"></div>
+                    <div class="button">
+                        <button type="button"> <a href="product.html">Подробнее</a></button>
+                    </div>
+                </div>
+
+                <div class="cart">
+                    <div class="img">
+                        <img src="" alt="">
+                    </div>
+                    <div class="description"></div>
+                    <div class="price"></div>
+                    <div class="button">
+                        <button type="button"> <a href="product.html">Подробнее</a></button>
+                    </div>
+                </div>
+
+                <div class="cart">
+                    <div class="img">
+                        <img src="" alt="">
+                    </div>
+                    <div class="description"></div>
+                    <div class="price"></div>
+                    <div class="button">
+                        <button type="button"> <a href="product.html">Подробнее</a></button>
+                    </div>
+                </div>
+
+                <div class="cart">
+                    <div class="img">
+                        <img src="" alt="">
+                    </div>
+                    <div class="description"></div>
+                    <div class="price"></div>
+                    <div class="button">
+                        <button type="button"> <a href="product.html">Подробнее</a></button>
+                    </div>
+                </div>
+
+                <div class="cart">
+                    <div class="img">
+                        <img src="" alt="">
+                    </div>
+                    <div class="description"></div>
+                    <div class="price"></div>
+                    <div class="button">
+                        <button type="button"> <a href="product.html">Подробнее</a></button>
+                    </div>
+                </div>
+
+                <div class="cart">
+                    <div class="img">
+                        <img src="" alt="">
+                    </div>
+                    <div class="description"></div>
+                    <div class="price"></div>
+                    <div class="button">
+                        <button type="button"> <a href="product.html">Подробнее</a></button>
+                    </div>
+                </div>
+                <div class="cart">
+                    <div class="img">
+                        <img src="" alt="">
+                    </div>
+                    <div class="description"></div>
+                    <div class="price"></div>
+                    <div class="button">
+                        <button type="button"> <a href="product.html">Подробнее</a></button>
+                    </div>
+                </div>
+                <div class="cart">
+                    <div class="img">
+                        <img src="" alt="">
+                    </div>
+                    <div class="description"></div>
+                    <div class="price"></div>
+                    <div class="button">
+                        <button type="button"> <a href="product.html">Подробнее</a></button>
+                    </div>
+                </div>
+
+                <div class="cart">
+                    <div class="img">
+                        <img src="" alt="">
+                    </div>
+                    <div class="description"></div>
+                    <div class="price"></div>
+                    <div class="button">
+                        <button type="button"> <a href="product.html">Подробнее</a></button>
+                    </div>
+                </div>
+                
+                <div class="cart">
+                    <div class="img">
+                        <img src="" alt="">
+                    </div>
+                    <div class="description"></div>
+                    <div class="price"></div>
+                    <div class="button">
+                        <button type="button"> <a href="product.html">Подробнее</a></button>
+                    </div>
+                </div>
+                <div class="cart">
+                    <div class="img">
+                        <img src="" alt="">
+                    </div>
+                    <div class="description"></div>
+                    <div class="price"></div>
+                    <div class="button">
+                        <button type="button"> <a href="product.html">Подробнее</a></button>
+                    </div>
+                </div>
+                <div class="cart">
+                    <div class="img">
+                        <img src="" alt="">
+                    </div>
+                    <div class="description"></div>
+                    <div class="price"></div>
+                    <div class="button">
+                        <button type="button"><a href="product.html">Подробнее</a></button>
+                    </div>
+                </div>
+                
+                
+
+            </div>
+
+        </div>
+
     </main>
 
 
 </body>
+       
 
 </html>
