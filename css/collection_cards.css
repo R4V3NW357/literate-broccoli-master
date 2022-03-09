@@ -17,10 +17,12 @@ body {
 .flex {
   display: flex;    
   flex-wrap: wrap;
+  padding: 5%;
 }
 
 .cart {
-  width: 180px;
+  width: 25%;
+  box-sizing: border-box;
   background-color: transparent;
   border: 1px solid transparent;
   transition: 0.1s ease-in;
