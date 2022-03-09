@@ -6,7 +6,7 @@ html, body {
     font-family: 'Roboto', sans-serif;
   }
     
-  .container {
+.container-product {
     max-width: 1200px;
     margin: 0 auto;
     padding: 15px;
