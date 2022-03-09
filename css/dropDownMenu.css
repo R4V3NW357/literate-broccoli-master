@@ -148,6 +148,11 @@ button {
     top: 0;
     background-color: #fff;
 }
+
+.catalog:focus ~ .catalog__list {
+    display: none;
+}
+
 .catalog__header {
     height: 60px;
     font-weight: bold;
@@ -163,10 +168,16 @@ button {
 .catalog__header-icon {
     font-size: 21px;
 }
+
 .catalog__list {
     position: relative;
-    z-index: 2;
+    z-index: 2;    
 }
+
+.catalog__list__close {
+    display: none;
+}
+
 ul {
     padding: 0;
     margin: 0;
@@ -193,7 +204,6 @@ li {
 .catalog__subcatalog {
     width: 867px;
     display: flex;
-    flex-direction: column;
     flex-wrap: wrap;
     background-color: #fff;
     position: absolute;
@@ -206,17 +216,28 @@ li {
     transition: all .3s;
 }
 
-.collections_subcatalog_item > a {
+.collections_subcatalog {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.collections_subcatalog_item {
+    margin: 5px;
+}
+
+.collections_subcatalog_item > a { 
     font-size: large;
     font-weight: 700;
     color: green;
 }
+
 
 .catalog__item:hover .catalog__subcatalog { 
     opacity: 1;
     visibility: visible; 
     left: 260px; 
 }
+
 .catalog__subcatalog-link{
     font-size: 14px;
     color: #111;
