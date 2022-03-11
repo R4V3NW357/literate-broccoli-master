@@ -1,20 +1,17 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="ru">
 
 <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
     <title>Комплектующие</title>
-    <link rel="stylesheet" type="text/css" href="css/collection_cards.css">
+    <link rel="stylesheet" type="text/css" href="css/collection_cards.css"> 
     <link rel="stylesheet" type="text/css" href="css/dropDownMenu.css">
-    <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
-    <script type="text/javascript" src="js/dropDownMenu.js" defer></script>
-    <script type="text/javascript" src="js/subcatalog.js" defer></script>
 </head>
 
 <body>
     <header class="header">
         <div class="container">
-            <a href="index.html" class="logo" title="Store">
+            <a href="#" class="logo" title="Store">
                 <img src="https://imdiz.ru/files/store/img/logo.png" alt="Logo">
             </a>
             <div class="header-right">
@@ -22,13 +19,14 @@
                     <input type="text" name="search" value="" placeholder="Search" class="search-input">
                     <button><i class="fa fa-search search-i"></i></button>
                 </form>
-
             </div>
-            <div class="header-right-form">
-				<a class="signIn" href="signIn.html">Войти</a>
+			<div class="header-right-form">
+				<a href="addItem.html">Добавить комплектующие</a>
 			</div>
-            
+			
         </div>
+		
+		
     </header>
 
 
@@ -42,7 +40,8 @@
                     <ul class="catalog__list">
                         <li class="catalog__item">
                             <a href="#" class="catalog__link">
-                                <img src="img/radio_comps.png" alt="Desktops" class="catalog__link-img"> Радиоэлементы
+                                <img src="img/radio_comps.png" alt="Desktops"
+                                    class="catalog__link-img"> Радиоэлементы
                             </a>
                             <div class="catalog__subcatalog">
                                 <ul class="collections_subcatalog">
@@ -50,13 +49,11 @@
                                         <a href="#" class="catalog__subcatalog-link">ТНТ</a>
                                         <ul>
                                             <li>
-                                                <a href="#" class="catalog__subcatalog-link-lvl">Резисторы</a>
-                                                <span class="subcatalog_resist">
-                                                
-                                                   <a href="#" class="catalog__subcatalog-link_">Постоянные</a>
-                                                   <a href="#" class="catalog__subcatalog-link">Переменные</a>
-                                               
-                                                </span>
+                                                <a href="#" class="catalog__subcatalog-link">Резисторы</a>
+                                                <ul>
+                                                    <li><a href="#" class="catalog__subcatalog-link">Постоянные</a></li>
+                                                    <li><a href="#" class="catalog__subcatalog-link">Переменные</a></li>
+                                                </ul>
                                             </li>
 
                                             <li>
@@ -76,7 +73,8 @@
                                                         <ul>
                                                             <li><a href="#" class="catalog__subcatalog-link">Логические
                                                                     элементы</a></li>
-                                                            <li><a href="#" class="catalog__subcatalog-link">Контроллеры</a>
+                                                            <li><a href="#"
+                                                                    class="catalog__subcatalog-link">Контроллеры</a>
                                                             </li>
                                                             <li><a href="#" class="catalog__subcatalog-link">Драйверы и
                                                                     усилители</a></li>
@@ -114,7 +112,8 @@
                                                         <ul>
                                                             <li><a href="#" class="catalog__subcatalog-link">Логические
                                                                     элементы</a></li>
-                                                            <li><a href="#" class="catalog__subcatalog-link">Контроллеры</a>
+                                                            <li><a href="#"
+                                                                    class="catalog__subcatalog-link">Контроллеры</a>
                                                             </li>
                                                             <li><a href="#" class="catalog__subcatalog-link">Драйверы и
                                                                     усилители</a></li>
@@ -148,9 +147,11 @@
                             </div>
                         </li>
                         <li class="catalog__item">
-                            <a href="#" class="catalog__link"><img src="img/power.png" class="catalog__link-img">Питание</a>
+                            <a href="#" class="catalog__link"><img
+                                    src="img/power.png"
+                                    alt="Laptops & Notebooks" class="catalog__link-img">Питание</a>
                             <div class="catalog__subcatalog">
-                                <ul class="collections_subcatalog">
+                                <ul class="catalog_collections">
                                     <li class="collections_subcatalog_item">
                                         <a href="#" class="catalog__subcatalog-link">Автономное</a>
                                     </li>
@@ -161,9 +162,10 @@
                             </div>
                         </li>
                         <li class="catalog__item">
-                            <a href="#" class="catalog__link"><img src="img/modules.png" alt="Components" class="catalog__link-img">Модули</a>
+                            <a href="#" class="catalog__link"><img src="img/modules.png" alt="Components"
+                                    class="catalog__link-img">Модули</a>
                             <div class="catalog__subcatalog">
-                                <ul class="collections_subcatalog">
+                                <ul class="catalog_collections">
                                     <li class="collections_subcatalog_item">
                                         <a href="#" class="catalog__subcatalog-link">Управляющие модули</a>
                                     </li>
@@ -201,10 +203,14 @@
                             </div>
                         </li>
                         <li class="catalog__item">
-                            <a href="#" class="catalog__link"><img src="img/wires.png" alt="Tablets" class="catalog__link-img">Провода</a>
+                            <a href="#" class="catalog__link"><img
+                                    src="img/wires.png" alt="Tablets"
+                                    class="catalog__link-img">Провода</a>
                         </li>
                         <li class="catalog__item">
-                            <a href="#" class="catalog__link"><img src="img/other.png" alt="Software" class="catalog__link-img">Прочее</a>
+                            <a href="#" class="catalog__link"><img
+                                    src="img/other.png" alt="Software"
+                                    class="catalog__link-img">Прочее</a>
                         </li>
                     </ul>
                 </div>
@@ -219,7 +225,7 @@
             --->
         </div>
     </div>
-
+    
     <!-- END -->
 
     <main>
@@ -427,4 +433,5 @@
 
 
 </body>
+
 </html>

@@ -1,81 +1,82 @@
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 html,
 body {
-  margin: 0;
-  padding: 0;
-  font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
 }
 
 .wrapper {
-  text-align: center;
-  background-image: linear-gradient(#ccc, #fff);
+    text-align: center;
+    background-image: linear-gradient(#ccc, #fff);
 }
 
 .flex {
-  display: flex;    
-  flex-wrap: wrap;
-  padding: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5%;
 }
 
 .cart {
-  width: 25%;
-  box-sizing: border-box;
-  background-color: transparent;
-  border: 1px solid transparent;
-  transition: 0.1s ease-in;
+    width: 25%;
+    box-sizing: border-box;
+    background-color: transparent;
+    border: 1px solid transparent;
+    transition: 0.1s ease-in;
 }
+
 .cart:hover {
-  background: #fff;
-  border-radius: 4px;
-  border: 1px solid #ccc;
-  box-shadow: 0 0 20px #fff;
+    background: #fff;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 20px #fff;
 }
 
-
-
-img {
-  display: inline-block;
-  max-width: 150px;
-  object-fit: cover;
+.img img{  
+    background: url("/img/ATmega32U4.png") no-repeat;
+    display: inline-block;
+    max-width: 150px;
+    object-fit: cover;
 }
+
 
 .description {
-  font-size: 14px;
-  text-align: left;
-  width: 90%;
-  margin: 20px auto;
+    font-size: 14px;
+    text-align: left;
+    width: 90%;
+    margin: 20px auto;
 }
 
 .price {
-  margin: 20px auto;
-  transition: color 0.1s ease-in;
+    margin: 20px auto;
+    transition: color 0.1s ease-in;
 }
 
 .cart:hover .price {
-  color: #66c05d;
-  font-weight: 700;
+    color: #66c05d;
+    font-weight: 700;
 }
 
 .button {
-  margin: 20px auto;
+    margin: 20px auto;
 }
 
 .button button {
-  border: none;
-  outline: none;
-  display: inline-block;
-  padding: 10px 20px;
-  background: #cb2d41;
-  border-radius: 30px;
-  transition: scale 0.1s ease-in;
-  color: #fff;
-  cursor: pointer;
+    border: none;
+    outline: none;
+    display: inline-block;
+    padding: 10px 20px;
+    background: #cb2d41;
+    border-radius: 30px;
+    transition: scale 0.1s ease-in;
+    color: #fff;
+    cursor: pointer;
 }
 
 .button:hover button {
-  transform: scale(1.1);
-  background-color: #48983e;
+    transform: scale(1.1);
+    background-color: #48983e;
 }
